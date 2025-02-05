@@ -1,6 +1,4 @@
 collections:
-  authors:
-    output: true
   persons:
     output: true
   research:
@@ -11,11 +9,6 @@ collections:
     output: true
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "persons"
