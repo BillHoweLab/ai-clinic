@@ -1,0 +1,14 @@
+---
+title: Workshops
+---
+<h1>Our Workshops</h1>
+<p>We host periodic workshops on topics of interest.</p>
+
+<ul>
+    {% for event in site.events %}
+      <li>
+          <h2><a href="{{ event.url }}">{{ event.title }}</a></h2>
+        <p>{{ event.content | markdownify }}</p>
+      </li>
+    {% endfor %}
+</ul>

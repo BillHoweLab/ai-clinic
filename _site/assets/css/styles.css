@@ -1,0 +1,31 @@
+.current {
+  color: green;
+}
+
+.nav_bar {
+  background-color: #4b2e83;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+.nav_bar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav_bar a:hover {
+  background-color: #ddd;
+}
+
+.homepage_image {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
