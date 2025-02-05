@@ -1,6 +1,8 @@
 collections:
   authors:
     output: true
+  persons:
+    output: true
   research:
     output: true
   workshops:
@@ -14,6 +16,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: "persons"
+    values:
+      layout: "person"
   - scope:
       path: ""
       type: "posts"

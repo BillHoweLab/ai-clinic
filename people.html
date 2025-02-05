@@ -5,11 +5,11 @@ title: People
 <p>We're pleased to have the support of faculty and graduate students.</p>
 
 <ul>
-    {% for author in site.authors %}
+    {% for person in site.persons %}
       <li>
-          <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-          <h3>{{ author.position }}</h3>
-        <p>{{ author.content | markdownify }}</p>
+          <h2><a href="{{ person.url }}">{{ person.name }}</a></h2>
+          <h3>{{ person.position }}</h3>
+        <p>{{ person.content | markdownify }}</p>
       </li>
     {% endfor %}
-  </ul>
+</ul>

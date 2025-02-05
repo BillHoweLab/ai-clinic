@@ -4,10 +4,10 @@
   link: /clinic.html
 - name: Research
   link: /research.html
-- name: People
-  link: /people.html
 - name: Workshops
   link: /our-workshops.html
+- name: People
+  link: /people.html
 - name: Blog
   link: /blog.html
 - name: Contact
