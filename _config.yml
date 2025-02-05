@@ -3,7 +3,7 @@ collections:
     output: true
   research:
     output: true
-  events:
+  workshops:
     output: true
   services:
     output: true
@@ -31,9 +31,9 @@ defaults:
       layout: "service"
   - scope:
       path: ""
-      type: "events"
+      type: "workshops"
     values:
-      layout: "event"
+      layout: "workshop"
   - scope:
       path: ""
     values:
