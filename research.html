@@ -4,12 +4,22 @@ title: Research
 <h1>Our Research</h1>
 <p>Our research prioritizes more approachable and understandable AI.</p>
 
-<ul>
+<div class="research_row">
     {% for research in site.research %}
-      <li>
+      <div class="research_card">
+        <div>
+          <a href="{{ research.url }}">
+            <img class="research_thumbnail" src="assets/images/{{research.thumbnail}}" alt="{{ research.title }}">
+          </a>
+        </div>
+        <div>
           <h2><a href="{{ research.url }}">{{ research.title }}</a></h2>
           <h3>{{ research.conference }}</h3>
-        <p>{{ research.content | markdownify }}</p>
-      </li>
+          {% for person in research.persons %}
+            <p>{{ person }}</p>
+          {% endfor %}
+        <p>{{ research.summary | markdownify }}</p>
+        </div>
+      </div>
     {% endfor %}
-  </ul>
+</div>

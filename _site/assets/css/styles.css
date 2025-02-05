@@ -1,5 +1,18 @@
-.current {
-  color: green;
+body, html {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 15px;
+  padding: 0;
+  color: black;
+  text-align: center;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .nav_bar {
@@ -7,6 +20,8 @@
   overflow: hidden;
   top: 0;
   width: 100%;
+  position: sticky;
+  z-index: 1000;
 }
 
 .nav_bar a {
@@ -20,12 +35,107 @@
 }
 
 .nav_bar a:hover {
-  background-color: #ddd;
+  background-color: #b7a57a;
+}
+
+.main_content {
+  margin: 20px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .homepage_image {
   width: 100%;
   height: auto;
+  display: block;
+}
+
+.research_display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.research_card {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.research_card:hover {
+  background-color: #b7a57a;
+}
+
+.research_thumbnail {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.clinic_row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.clinic_card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.clinic_card:hover {
+  background-color: #b7a57a;
+}
+
+.clinic_image {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+  opacity: 0.85;
+}
+
+.clinic_button {
+  background-color: #4b2e83;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.clinic_card_text_div {
+  text-align: center;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.button_text {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

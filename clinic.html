@@ -1,15 +1,17 @@
 ---
 title: Clinic
 ---
-<h1>Our Clinic</h1>
-<p>We invite faculty, students, and community to take advantage of our clinic model.</p>
+<h1>CALM: A Clinic for LLMs in the Public Interest</h1>
+<div class="main_content">CALM offers office hours and consulting services to help faculty, students, and local organizations and members of the community to
+  more effectively use general-purpose AI in their research.</div>
 
-<ul>
+<div class="clinic_row">
     {% for service in site.services %}
-      <li>
-          <h2><a href="{{ service.url }}">{{ service.title }}</a></h2>
-          <h3>{{ service.link }}</h3>
-        <p>{{ service.content | markdownify }}</p>
-      </li>
+    <div class="clinic_card">
+        <img class="clinic_image" src="{{ service.thumbnail }}">
+        <h2>{{ service.title }}</h2>
+        <div class="clinic_card_text_div">{{ service.summary | markdownify }}</div>
+        <button class="clinic_button"><a class="button_text" href="{{ service.url }}">Learn More</a></button>
+    </div>
     {% endfor %}
-  </ul>
+</div>

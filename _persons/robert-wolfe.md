@@ -1,5 +1,5 @@
 ---
-short_name: robert
+short_name: robert-wolfe
 name: Robert Wolfe
 position: Member
 ---

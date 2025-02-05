@@ -1,5 +1,5 @@
 ---
-short_name: bill
+short_name: bill-howe
 name: Bill Howe
 position: Director
 ---
