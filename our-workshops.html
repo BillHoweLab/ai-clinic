@@ -1,14 +1,18 @@
 ---
 title: "Workshops"
 ---
-<h1>Our Workshops</h1>
-<p>We host periodic workshops on topics of interest.</p>
+<h1>Workshops and Events</h1>
+<div class="main_content">We host periodic workshops open to UW faculty and students on topics of interest. We also invite members of the community to participate in many
+  of our events. Please check back often for updates.</div>
 
-<ul>
-    {% for workshop in site.workshops %}
-      <li>
-          <h2><a href="{{ workshop.url }}">{{ workshop.title }}</a></h2>
-        <p>{{ workshop.content | markdownify }}</p>
-      </li>
-    {% endfor %}
-</ul>
+<div class="clinic_row">
+  {% for workshop in site.workshops %}
+  <div class="clinic_card">
+      <img class="clinic_image" src="{{ workshop.thumbnail }}">
+      <h2>{{ workshop.title }}</h2>
+      <p>{{workshop.day}}<br>{{workshop.location}}</p>
+      <div class="clinic_card_text_div">{{ workshop.summary | markdownify }}</div>
+      <button class="clinic_button"><a class="button_text" href="{{ workshop.url }}">Join Us</a></button>
+  </div>
+  {% endfor %}
+</div>

@@ -1,7 +1,7 @@
 ---
 title: 'Laboratory-Scale AI'
 layout: research
-persons: robert-wolfe, bill-howe
+persons: 'Robert Wolfe, Isaac Slaughter, Bin Han, Bingbing Wen, Yiwei Yang, Lucas Rosenblatt, Bernease Herman, Eva Brown, Zening Qu, Nic Weber, and Bill Howe'
 conference: 'ACM FAccT 2024'
 date: 'June 2024'
 code: 'https://github.com/BillHoweLab/laboratory-scale-ai'

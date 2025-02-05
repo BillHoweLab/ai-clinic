@@ -1,15 +1,16 @@
 ---
 title: People
 ---
-<h1>Our People</h1>
-<p>We're pleased to have the support of faculty and graduate students.</p>
+<h1>People</h1>
+<div class="main_content">CALM relies on the support of the dedicated faculty and students of the University of Washington iSchool.</div>
 
-<ul>
-    {% for person in site.persons %}
-      <li>
-          <h2><a href="{{ person.url }}">{{ person.name }}</a></h2>
-          <h3>{{ person.position }}</h3>
-        <p>{{ person.content | markdownify }}</p>
-      </li>
-    {% endfor %}
-</ul>
+<div class="clinic_row">
+  {% for person in site.persons %}
+  <div class="clinic_card">
+      <img class="clinic_image" src="{{ person.thumbnail }}">
+      <h2>{{ person.name }}</h2><h3>{{ person.position }}</h3>
+      <div class="clinic_card_text_div">{{ person.summary | markdownify }}</div>
+      <button class="clinic_button"><a class="button_text" href="{{ person.url }}">View Page</a></button>
+  </div>
+  {% endfor %}
+</div>
