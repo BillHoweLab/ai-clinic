@@ -2,6 +2,19 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<h2>{{ page.code }}</h2>
+<div class="research_header">
+    <div>{{ page.conference }}</div>
+    <div class="research_persons">{{ page.persons }}</div>
+</div>
 
+<div class="research_layout_row">
+    <button class="research_paper_button"><a class="button_text" href={{ page.paper | if page.paper }}>Research Paper</a></button>
+    <button class="research_code_button"><a class="button_text" href={{ page.code | if page.code }}>Research Code</a></button>
+</div>
+
+<div class="research_layout_row">
+<div class="research_paper_content_card">
+<h3 style="text-align:center">Paper Summary</h3>
 {{ content }}
+</div>
+</div>

@@ -1,5 +1,5 @@
 ---
-title: 'Laboratory-Scale AI'
+title: 'Laboratory-Scale AI: Open-Weight Models Are Competitive with ChatGPT Even Under Low-Resource Conditions'
 layout: research
 persons: 'Robert Wolfe, Isaac Slaughter, Bin Han, Bingbing Wen, Yiwei Yang, Lucas Rosenblatt, Bernease Herman, Eva Brown, Zening Qu, Nic Weber, and Bill Howe'
 conference: 'ACM FAccT 2024'

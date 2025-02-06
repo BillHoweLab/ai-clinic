@@ -2,7 +2,7 @@
 title: "LLM Confidence Workshop"
 layout: workshop
 summary: 'LLMs usually answer users confidently, but should they? Join us to learn about methods for estimating the confidence of LLMs.'
-thumbnail: 'assets/images/confidence.png'
+thumbnail: 'assets/images/phone-check.png'
 day: 'April 5, 2025, 6pm PST'
 location: 'Mary Gates Hall 015H'
 ---

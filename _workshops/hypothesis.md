@@ -1,8 +1,8 @@
 ---
-title: "Hypothesis Testing Workshop"
+title: "LLM Experiment Workshop"
 layout: workshop
 summary: 'LLMs are common in research - but do we use them reliably? Join us to learn about best practices for experiments with LLMs.'
-thumbnail: 'assets/images/lab-scale.png'
+thumbnail: 'assets/images/experiment.png'
 day: 'March 2, 2025, 6pm PST'
 location: 'Mary Gates Hall 015H'
 ---

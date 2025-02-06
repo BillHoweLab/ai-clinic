@@ -2,17 +2,15 @@ body, html {
   margin-left: 10px;
   margin-right: 10px;
   padding: 0;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-family: Helvetica, sans-serif;
   background-color: white;
 }
 
 h1 {
-  font-size: 2.5em;
   margin-top: 20px;
   padding: 0;
   color: black;
   text-align: center;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .nav_bar {
@@ -114,7 +112,6 @@ footer {
 }
 .main_content {
   margin: 20px;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .homepage_image {
@@ -139,7 +136,6 @@ footer {
   width: 600px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
   color: #333;
   display: flex;
@@ -164,8 +160,73 @@ footer {
   border-radius: 5px;
 }
 
+.workshop_image {
+  height: 100px;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
 .research_persons {
   font-size: 12px;
+}
+
+.research_paper_button {
+  background-color: #4b2e83;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.research_paper_button:hover {
+  background-color: #3d1f6b;
+}
+
+.research_code_button {
+  background-color: #4b2e83;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.research_code_button:hover {
+  background-color: #3d1f6b;
+}
+
+.research_paper_content_card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  width: 600px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  font-size: 16px;
+  color: #333;
+}
+
+.research_layout_row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.research_header {
+  font-size: 16px;
+  margin: 20px;
+  text-align: center;
 }
 
 .clinic_row {
@@ -184,7 +245,6 @@ footer {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
   color: #333;
   text-decoration: none;
@@ -223,6 +283,26 @@ footer {
 .button_text {
   font-family: Calibri, "Trebuchet MS", sans-serif;
   color: white;
+}
+
+.homepage_widgets {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.widget_card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  font-size: 16px;
+  color: #333;
 }
 
 /*# sourceMappingURL=styles.css.map */

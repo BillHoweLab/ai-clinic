@@ -8,9 +8,11 @@ title: "Workshops"
 <div class="clinic_row">
   {% for workshop in site.workshops %}
   <div class="clinic_card">
-      <img class="clinic_image" src="{{ workshop.thumbnail }}">
+    <div class="workshop_image">
+      <img class="workshop_image" src="{{ workshop.thumbnail }}">
+    </div>
       <h2>{{ workshop.title }}</h2>
-      <p>{{workshop.day}}<br>{{workshop.location}}</p>
+      <p>{{ workshop.day }}<br>{{ workshop.location }}</p>
       <div class="clinic_card_text_div">{{ workshop.summary | markdownify }}</div>
       <button class="clinic_button"><a class="button_text" href="{{ workshop.url }}">Join Us</a></button>
   </div>
