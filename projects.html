@@ -1,0 +1,23 @@
+---
+title: Projects
+---
+<h1>Projects</h1>
+<div class="main_content">The AI Clinic engages in both short and long-term projects related to the scientific use of general-purpose AI, including large language models.
+Below are a few examples of our work.</div>
+
+<div class="project_display">
+    {% for project in site.projects %}
+      <div class="project_card">
+        <div class="project_image">
+          <a href="{{ project.url }}">
+            <img class="project_thumbnail" src="assets/images/{{project.thumbnail}}" alt="{{ project.title }}">
+          </a>
+        </div>
+        <div>
+          <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+          <p class="project_clients">{{ project.clients }}</p>
+        <p>{{ project.summary | markdownify }}</p>
+        </div>
+      </div>
+    {% endfor %}
+</div>

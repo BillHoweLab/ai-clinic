@@ -2,10 +2,10 @@
   link: /
 - name: Clinic
   link: /clinic.html
+- name: Projects
+  link: /projects.html
 #- name: Research
 #  link: /research.html
-- name: Projects
-  link: /research.html
 - name: Workshops
   link: /our-workshops.html
 - name: People
