@@ -12,5 +12,7 @@
   link: /people.html
 - name: Blog
   link: /blog.html
-- name: Connect
+- name: Join Us
   link: /contact.html
+- name: Schedule
+  link: /schedule.html
