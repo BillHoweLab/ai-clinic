@@ -4,8 +4,9 @@ thumbnail: 'assets/images/red-clock.png'
 summary: 'Bring your questions to our weekly office hours, where you can leverage the expertise of our faculty to help with research design.'
 ---
 
-Clinic staff are available on a weekly basis to help with a variety of issues related to the use of general-purpose AI in research. Our staff can help
-with topics including:
+Clinic staff are available on a weekly basis to help with a variety of issues related to the use of general-purpose AI in research. Visit our office hours <a href="../schedule.html">scheduling page</a> to make a Zoom appointment with the clinic.
+
+Our staff can help with topics including:
 
 * Drawing inferences from large corpora of text or images using general-purpose models
 * Estimating error when using general-purpose models for quantitative analysis
