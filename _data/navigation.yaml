@@ -2,7 +2,9 @@
   link: /
 - name: Clinic
   link: /clinic.html
-- name: Research
+#- name: Research
+#  link: /research.html
+- name: Projects
   link: /research.html
 - name: Workshops
   link: /our-workshops.html
@@ -10,5 +12,5 @@
   link: /people.html
 - name: Blog
   link: /blog.html
-- name: Contact
+- name: Connect
   link: /contact.html

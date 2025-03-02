@@ -1,10 +1,10 @@
 ---
 title: 'Short-Term Consulting'
 thumbnail: 'assets/images/red-phone.png'
-summary: 'Short-Term (3 months or fewer) relationships engaging CALM for ongoing research support.'
+summary: 'Short-Term (3 months or fewer) relationships engaging The AI Clinic for ongoing research support.'
 ---
 
-CALM offers short-term consulting relationships that can provide ongoing support for projects that would benefit from AI-driven analysis. Beyond
+The AI Clinic offers short-term consulting relationships that can provide ongoing support for projects that would benefit from AI-driven analysis. Beyond
 simply answering questions, we can assist in writing research code, selecting or designing appropriate methods for using LLMs in research, and
 providing support in describing those methods during the authorship of research publications.
 
