@@ -11,7 +11,10 @@ that are likely to last longer than three months or which may require the purcha
 To inquire about a long-term consulting relationship, please complete the form below, and we'll get back to you as soon as possible.
 
 <div class="form-body">
-<form id="long-consultingForm">
+<form
+  action="https://formspree.io/f/myzkrndw"
+  method="POST"
+>
     <label for="name">Full Name:</label>
     <input type="text" id="name" name="name" required>
     

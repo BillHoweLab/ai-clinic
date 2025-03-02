@@ -15,7 +15,10 @@ computing resources.
 To inquire about a long-term consulting relationship, please complete the form below, and we'll get back to you as soon as possible.
 
 <div class="form-body">
-<form id="short-consultingForm">
+<form
+  action="https://formspree.io/f/mqaeryde"
+  method="POST"
+>
     <label for="name">Full Name:</label>
     <input type="text" id="name" name="name" required>
     
