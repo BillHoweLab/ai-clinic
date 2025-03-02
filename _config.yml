@@ -46,6 +46,8 @@ defaults:
     values:
       layout: "default"
 
+repository: BillHoweLab/calm
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
