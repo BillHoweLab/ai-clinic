@@ -8,11 +8,11 @@
   link: /projects.html
 #- name: Research
 #  link: /research.html
-- name: Workshops
-  link: /our-workshops.html
+#- name: Workshops
+#  link: /our-workshops.html
 - name: People
   link: /people.html
-- name: Blog
-  link: /blog.html
+#- name: Blog
+#  link: /blog.html
 - name: Join Us
   link: /contact.html

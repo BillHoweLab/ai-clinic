@@ -8,9 +8,9 @@ title: People
   {% for person in site.persons %}
   <div class="clinic_card">
       <img class="clinic_image" src="{{ person.thumbnail }}">
-      <h2>{{ person.name }}</h2><h3>{{ person.position }}</h3>
+      <h3>{{ person.name }}</h3><h3>{{ person.position }}</h3>
       <div class="clinic_card_text_div">{{ person.summary | markdownify }}</div>
-      <button class="clinic_button"><a class="button_text" href="{{ person.url }}">View Page</a></button>
+      <button class="clinic_button"><a class="button_text" href="{{ person.webpage }}">View Website</a></button>
   </div>
   {% endfor %}
 </div>

@@ -2,22 +2,36 @@
 title: Projects
 ---
 <h1>Projects</h1>
-<div class="main_content">The AI Clinic engages in both short and long-term projects related to the scientific use of general-purpose AI, including large language models.
-Below are a few examples of our work.</div>
 
-<div class="project_display">
-    {% for project in site.projects %}
-      <div class="project_card">
-        <div class="project_image">
-          <a href="{{ project.url }}">
-            <img class="project_thumbnail" src="assets/images/{{project.thumbnail}}" alt="{{ project.title }}">
-          </a>
-        </div>
-        <div>
-          <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-          <p class="project_clients">{{ project.clients }}</p>
-        <p>{{ project.summary | markdownify }}</p>
-        </div>
-      </div>
-    {% endfor %}
+Projects that the AI Clinic becomes involved in through its short-term and long-term consulting services are typically well-described by one of the below categories.
+
+<div class="clinic_row">
+  <div class="clinic_card">
+    <h2>Model Customization</h2>
+    <p>We can assist with fine-tuning a custom model specialized to your data. After the model is fine-tuned, we can host it for a period of time on the clinic's resources before helping you migrate it to your own endpoint. We can also help you set up an interface to demo the model for your users.</p>
+  </div>
+  <div class="clinic_card">
+    <h2>AI System Evaluation</h2>
+    <p>We can help you evaluate the performance of your model, including its accuracy, relevance, and bias. This might include developing a framework to test the model, collecting real or synthetic data, and analyzing performance. We can also help you interpret the results and make recommendations for improvement.</p>
+  </div>
+  <div class="clinic_card">
+    <h2>RAG Implementation</h2>
+    <p>We can help you implement a retrieval-augmented generation (RAG) system to improve the accuracy and relevance of your AI-generated content. This includes setting up a vector or relational database, indexing your data, and integrating it with your LLM.</p>
+  </div>
+  <div class="clinic_card">
+    <h2>Private Fine-Tuning</h2>
+    <p>We can help you fine-tune a model on your data while preserving the privacy of your users. This includes setting up a secure environment for training, implementing differential privacy techniques, and evaluating both the model's performance and the privacy guarantees of the training process.</p>
+  </div>
+  <div class="clinic_card">
+    <h2>Interface Design</h2>
+    <p>We can help you design and implement a user interface to embed your model in an AI application. This may include a user study to determine the best interface for your users, as well as a prototype of the interface itself. We can also provide advice about transparent and ethical interaction with lay users.</p>
+  </div>
+  <div class="clinic_card">
+    <h2>AI Agents</h2>
+    <p>We can help you design and implement an AI agent to automate a specific task or process. Tasks that are well-suited to AI agents typically involve repetitive or iterative tasks that can be automated by enabling AI to engage with the world through APIs or other interfaces.</p>
+  </div>
+  <div class="clinic_card">
+    <h2>AI Simulation</h2>
+    <p>We can help you design and implement an AI simulation to model a complex system or process. Digital twins are a common example of this, where an AI model is used to simulate the behavior of a physical system. Simulations can be used to test hypotheses, before deploying in the real world.</p>
+  </div>
 </div>
