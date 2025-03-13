@@ -64,6 +64,15 @@ footer {
     text-align: center;
 }
 
+.footer-section img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer-section p, .footer-section ul {
     font-size: 14px;
     text-align: center;
@@ -474,3 +483,15 @@ button:hover {
     font-size: 18px;
     color: #333;
   }
+
+  .contact_page_button {
+    background-color: #4b2e83;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 250px;
+}

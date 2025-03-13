@@ -1,10 +1,10 @@
 - name: Home
   link: /
-- name: Clinic
+- name: Consulting
   link: /clinic.html
-- name: Office Hours
+- name: Schedule Appointment
   link: /schedule.html
-- name: Projects
+- name: Our Expertise
   link: /projects.html
 #- name: Research
 #  link: /research.html

@@ -4,7 +4,11 @@ thumbnail: 'assets/images/red-clock.png'
 summary: 'Bring your questions to our weekly office hours, where you can leverage the expertise of our faculty to help with research design.'
 ---
 
-Clinic experts are available during our weekly office hours to help with a variety of issues related to using AI in research and public interest work. Appointments can be scheduled for up to one hour on our office hours <a href="../schedule.html">scheduling page</a>. All office hours are presently held over Zoom.
+Clinic experts are available during our weekly office hours to help with a variety of issues related to using AI in research and public interest work. Appointments can be scheduled for up to one hour. All office hours are presently held over Zoom.
+
+<div style="text-align:center">
+<button class="clinic_button" onclick="../schedule.html">Schedule an Appointment</button>
+</div>
 
 Office hours provide a space to engage our experts in greenfield brainstorming. We welcome discussions of how to implement ideas from recent scientific papers, translating from theoretical to applied settings. We're also happy to discuss best practices for working with AI, including estimating the confidence of general-purpose models for a specfic task of interest. While we don't provide tutorials on using AI or other technologies during office hours, our experts can provide advice on topics such as:
 
